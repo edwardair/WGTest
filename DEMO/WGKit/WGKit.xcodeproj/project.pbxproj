@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F74C19FC23D1522400D1CF15 /* WGKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C19FA23D1522400D1CF15 /* WGKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F74C1A6823D1525900D1CF15 /* NSObject+WGObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A0A23D1525900D1CF15 /* NSObject+WGObject.h */; };
+		F74C1A6923D1525900D1CF15 /* NSString+WGString.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A0B23D1525900D1CF15 /* NSString+WGString.h */; };
+		F74C1A6A23D1525900D1CF15 /* WGLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A0C23D1525900D1CF15 /* WGLog.h */; };
+		F74C1A6B23D1525900D1CF15 /* NSDictionary+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A0D23D1525900D1CF15 /* NSDictionary+Map.h */; };
+		F74C1A6C23D1525900D1CF15 /* NSObject+WGBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A0E23D1525900D1CF15 /* NSObject+WGBlock.h */; };
+		F74C1A6D23D1525900D1CF15 /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A0F23D1525900D1CF15 /* NSArray+Map.m */; };
+		F74C1A6E23D1525900D1CF15 /* NSDate+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A1023D1525900D1CF15 /* NSDate+WGCategory.h */; };
+		F74C1A6F23D1525900D1CF15 /* NSTimer+WGTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A1123D1525900D1CF15 /* NSTimer+WGTimer.m */; };
+		F74C1A7023D1525900D1CF15 /* NSString+WGString.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A1223D1525900D1CF15 /* NSString+WGString.m */; };
+		F74C1A7123D1525900D1CF15 /* NSObject+WGObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A1323D1525900D1CF15 /* NSObject+WGObject.m */; };
+		F74C1A7223D1525900D1CF15 /* NSObject+WGBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A1423D1525900D1CF15 /* NSObject+WGBlock.m */; };
+		F74C1A7323D1525900D1CF15 /* NSDictionary+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A1523D1525900D1CF15 /* NSDictionary+Map.m */; };
+		F74C1A7423D1525900D1CF15 /* WGLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A1623D1525900D1CF15 /* WGLog.m */; };
+		F74C1A7523D1525900D1CF15 /* NSDate+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A1723D1525900D1CF15 /* NSDate+WGCategory.m */; };
+		F74C1A7623D1525900D1CF15 /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A1823D1525900D1CF15 /* NSArray+Map.h */; };
+		F74C1A7723D1525900D1CF15 /* NSTimer+WGTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A1923D1525900D1CF15 /* NSTimer+WGTimer.h */; };
+		F74C1A7823D1525900D1CF15 /* NSObject+WGAutoModelHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A1B23D1525900D1CF15 /* NSObject+WGAutoModelHelper.h */; };
+		F74C1A7923D1525900D1CF15 /* NSObject+WGModelValue.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A1C23D1525900D1CF15 /* NSObject+WGModelValue.h */; };
+		F74C1A7A23D1525900D1CF15 /* NSObject+WGJSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A1D23D1525900D1CF15 /* NSObject+WGJSONValue.m */; };
+		F74C1A7B23D1525900D1CF15 /* NSArray+WGJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A1E23D1525900D1CF15 /* NSArray+WGJSONModel.h */; };
+		F74C1A7C23D1525900D1CF15 /* NSObject+WGJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A1F23D1525900D1CF15 /* NSObject+WGJSONModel.h */; };
+		F74C1A7D23D1525900D1CF15 /* NSObject+WGModelValue.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2023D1525900D1CF15 /* NSObject+WGModelValue.m */; };
+		F74C1A7E23D1525900D1CF15 /* NSObject+WGAutoModelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2123D1525900D1CF15 /* NSObject+WGAutoModelHelper.m */; };
+		F74C1A7F23D1525900D1CF15 /* NSArray+WGJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2223D1525900D1CF15 /* NSArray+WGJSONModel.m */; };
+		F74C1A8023D1525900D1CF15 /* NSObject+WGJSONValue.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A2323D1525900D1CF15 /* NSObject+WGJSONValue.h */; };
+		F74C1A8123D1525900D1CF15 /* NSObject+WGJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2423D1525900D1CF15 /* NSObject+WGJSONModel.m */; };
+		F74C1A8223D1525900D1CF15 /* UIColor+WGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2723D1525900D1CF15 /* UIColor+WGColor.m */; };
+		F74C1A8323D1525900D1CF15 /* UIView+IBDESIGNABLE.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2823D1525900D1CF15 /* UIView+IBDESIGNABLE.m */; };
+		F74C1A8423D1525900D1CF15 /* UIImageView+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2923D1525900D1CF15 /* UIImageView+WGCategory.m */; };
+		F74C1A8523D1525900D1CF15 /* UITextField+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2A23D1525900D1CF15 /* UITextField+WGCategory.m */; };
+		F74C1A8623D1525900D1CF15 /* UIControl+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A2B23D1525900D1CF15 /* UIControl+WGCategory.h */; };
+		F74C1A8723D1525900D1CF15 /* UITextView+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2C23D1525900D1CF15 /* UITextView+WGCategory.m */; };
+		F74C1A8823D1525900D1CF15 /* UIAlertController+WGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2D23D1525900D1CF15 /* UIAlertController+WGAdd.m */; };
+		F74C1A8923D1525900D1CF15 /* UIGestureRecognizer+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2E23D1525900D1CF15 /* UIGestureRecognizer+WGCategory.m */; };
+		F74C1A8A23D1525900D1CF15 /* UIImage+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A2F23D1525900D1CF15 /* UIImage+WGCategory.m */; };
+		F74C1A8B23D1525900D1CF15 /* UILabel+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3023D1525900D1CF15 /* UILabel+WGCategory.h */; };
+		F74C1A8C23D1525900D1CF15 /* UIDevice+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3123D1525900D1CF15 /* UIDevice+WGCategory.h */; };
+		F74C1A8D23D1525900D1CF15 /* UIViewController+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A3223D1525900D1CF15 /* UIViewController+WGCategory.m */; };
+		F74C1A8E23D1525900D1CF15 /* UIButton+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A3323D1525900D1CF15 /* UIButton+WGCategory.m */; };
+		F74C1A8F23D1525900D1CF15 /* UIView+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3423D1525900D1CF15 /* UIView+WGCategory.h */; };
+		F74C1A9023D1525900D1CF15 /* UITextField+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3523D1525900D1CF15 /* UITextField+WGCategory.h */; };
+		F74C1A9123D1525900D1CF15 /* UIImageView+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3623D1525900D1CF15 /* UIImageView+WGCategory.h */; };
+		F74C1A9223D1525900D1CF15 /* UIView+IBDESIGNABLE.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3723D1525900D1CF15 /* UIView+IBDESIGNABLE.h */; };
+		F74C1A9323D1525900D1CF15 /* UIColor+WGColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3823D1525900D1CF15 /* UIColor+WGColor.h */; };
+		F74C1A9423D1525900D1CF15 /* UIImage+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3923D1525900D1CF15 /* UIImage+WGCategory.h */; };
+		F74C1A9523D1525900D1CF15 /* UIGestureRecognizer+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3A23D1525900D1CF15 /* UIGestureRecognizer+WGCategory.h */; };
+		F74C1A9623D1525900D1CF15 /* UIAlertController+WGAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3B23D1525900D1CF15 /* UIAlertController+WGAdd.h */; };
+		F74C1A9723D1525900D1CF15 /* UITextView+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3C23D1525900D1CF15 /* UITextView+WGCategory.h */; };
+		F74C1A9823D1525900D1CF15 /* UIControl+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A3D23D1525900D1CF15 /* UIControl+WGCategory.m */; };
+		F74C1A9923D1525900D1CF15 /* UIViewController+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A3E23D1525900D1CF15 /* UIViewController+WGCategory.h */; };
+		F74C1A9A23D1525900D1CF15 /* UIDevice+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A3F23D1525900D1CF15 /* UIDevice+WGCategory.m */; };
+		F74C1A9B23D1525900D1CF15 /* UILabel+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A4023D1525900D1CF15 /* UILabel+WGCategory.m */; };
+		F74C1A9C23D1525900D1CF15 /* UIView+WGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A4123D1525900D1CF15 /* UIView+WGCategory.m */; };
+		F74C1A9D23D1525900D1CF15 /* UIButton+WGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A4223D1525900D1CF15 /* UIButton+WGCategory.h */; };
+		F74C1A9E23D1525900D1CF15 /* WGActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A4423D1525900D1CF15 /* WGActionSheet.m */; };
+		F74C1A9F23D1525900D1CF15 /* WGCenterImageAndTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A4523D1525900D1CF15 /* WGCenterImageAndTitleButton.m */; };
+		F74C1AA023D1525900D1CF15 /* WGTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A4623D1525900D1CF15 /* WGTextView.h */; };
+		F74C1AA123D1525900D1CF15 /* WGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A4723D1525900D1CF15 /* WGAlertView.m */; };
+		F74C1AA223D1525900D1CF15 /* WGActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A4823D1525900D1CF15 /* WGActionSheet.h */; };
+		F74C1AA323D1525900D1CF15 /* WGCenterImageAndTitleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A4923D1525900D1CF15 /* WGCenterImageAndTitleButton.h */; };
+		F74C1AA423D1525900D1CF15 /* WGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A4A23D1525900D1CF15 /* WGAlertView.h */; };
+		F74C1AA523D1525900D1CF15 /* WGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A4B23D1525900D1CF15 /* WGTextView.m */; };
+		F74C1AA623D1525900D1CF15 /* UITableViewCell+WGAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A4D23D1525900D1CF15 /* UITableViewCell+WGAutoLayout.h */; };
+		F74C1AA723D1525900D1CF15 /* UITableView+EdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A4E23D1525900D1CF15 /* UITableView+EdgeInsets.m */; };
+		F74C1AA823D1525900D1CF15 /* NSArray+NSIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A4F23D1525900D1CF15 /* NSArray+NSIndexPath.m */; };
+		F74C1AA923D1525900D1CF15 /* WGTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A5023D1525900D1CF15 /* WGTableController.m */; };
+		F74C1AAA23D1525900D1CF15 /* UITableView+WGAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A5123D1525900D1CF15 /* UITableView+WGAutoLayout.h */; };
+		F74C1AAB23D1525900D1CF15 /* UITableView+EdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A5223D1525900D1CF15 /* UITableView+EdgeInsets.h */; };
+		F74C1AAC23D1525900D1CF15 /* UITableViewCell+WGAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A5323D1525900D1CF15 /* UITableViewCell+WGAutoLayout.m */; };
+		F74C1AAD23D1525900D1CF15 /* WGTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A5423D1525900D1CF15 /* WGTableController.h */; };
+		F74C1AAE23D1525900D1CF15 /* NSArray+NSIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A5523D1525900D1CF15 /* NSArray+NSIndexPath.h */; };
+		F74C1AAF23D1525900D1CF15 /* UITableView+WGAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A5623D1525900D1CF15 /* UITableView+WGAutoLayout.m */; };
+		F74C1AB023D1525900D1CF15 /* WGPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A5823D1525900D1CF15 /* WGPopoverView.m */; };
+		F74C1AB123D1525900D1CF15 /* WGGetGestureSecrets.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A5923D1525900D1CF15 /* WGGetGestureSecrets.h */; };
+		F74C1AB223D1525900D1CF15 /* WGLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A5A23D1525900D1CF15 /* WGLabel.h */; };
+		F74C1AB323D1525900D1CF15 /* WGCoreTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A5B23D1525900D1CF15 /* WGCoreTextView.h */; };
+		F74C1AB423D1525900D1CF15 /* WGControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A5C23D1525900D1CF15 /* WGControl.m */; };
+		F74C1AB523D1525900D1CF15 /* WGTextInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A5D23D1525900D1CF15 /* WGTextInputAccessoryView.m */; };
+		F74C1AB623D1525900D1CF15 /* WGCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A5E23D1525900D1CF15 /* WGCheckBox.m */; };
+		F74C1AB723D1525900D1CF15 /* WGGetGestureSecrets.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A5F23D1525900D1CF15 /* WGGetGestureSecrets.m */; };
+		F74C1AB823D1525900D1CF15 /* WGPopoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A6023D1525900D1CF15 /* WGPopoverView.h */; };
+		F74C1AB923D1525900D1CF15 /* WGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A6123D1525900D1CF15 /* WGLabel.m */; };
+		F74C1ABA23D1525900D1CF15 /* WGCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C1A6223D1525900D1CF15 /* WGCoreTextView.m */; };
+		F74C1ABB23D1525900D1CF15 /* WGTextInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A6323D1525900D1CF15 /* WGTextInputAccessoryView.h */; };
+		F74C1ABC23D1525900D1CF15 /* WGControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A6423D1525900D1CF15 /* WGControl.h */; };
+		F74C1ABD23D1525900D1CF15 /* WGCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A6523D1525900D1CF15 /* WGCheckBox.h */; };
+		F74C1ABE23D1525900D1CF15 /* WGDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A6623D1525900D1CF15 /* WGDefines.h */; };
+		F74C1ABF23D1525900D1CF15 /* WGConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C1A6723D1525900D1CF15 /* WGConstant.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F74C19F723D1522400D1CF15 /* WGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74C19FA23D1522400D1CF15 /* WGKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGKit.h; sourceTree = "<group>"; };
+		F74C19FB23D1522400D1CF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74C1A0A23D1525900D1CF15 /* NSObject+WGObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WGObject.h"; sourceTree = "<group>"; };
+		F74C1A0B23D1525900D1CF15 /* NSString+WGString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WGString.h"; sourceTree = "<group>"; };
+		F74C1A0C23D1525900D1CF15 /* WGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLog.h; sourceTree = "<group>"; };
+		F74C1A0D23D1525900D1CF15 /* NSDictionary+Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Map.h"; sourceTree = "<group>"; };
+		F74C1A0E23D1525900D1CF15 /* NSObject+WGBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WGBlock.h"; sourceTree = "<group>"; };
+		F74C1A0F23D1525900D1CF15 /* NSArray+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Map.m"; sourceTree = "<group>"; };
+		F74C1A1023D1525900D1CF15 /* NSDate+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A1123D1525900D1CF15 /* NSTimer+WGTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WGTimer.m"; sourceTree = "<group>"; };
+		F74C1A1223D1525900D1CF15 /* NSString+WGString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WGString.m"; sourceTree = "<group>"; };
+		F74C1A1323D1525900D1CF15 /* NSObject+WGObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WGObject.m"; sourceTree = "<group>"; };
+		F74C1A1423D1525900D1CF15 /* NSObject+WGBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WGBlock.m"; sourceTree = "<group>"; };
+		F74C1A1523D1525900D1CF15 /* NSDictionary+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Map.m"; sourceTree = "<group>"; };
+		F74C1A1623D1525900D1CF15 /* WGLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLog.m; sourceTree = "<group>"; };
+		F74C1A1723D1525900D1CF15 /* NSDate+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A1823D1525900D1CF15 /* NSArray+Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Map.h"; sourceTree = "<group>"; };
+		F74C1A1923D1525900D1CF15 /* NSTimer+WGTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WGTimer.h"; sourceTree = "<group>"; };
+		F74C1A1B23D1525900D1CF15 /* NSObject+WGAutoModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WGAutoModelHelper.h"; sourceTree = "<group>"; };
+		F74C1A1C23D1525900D1CF15 /* NSObject+WGModelValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WGModelValue.h"; sourceTree = "<group>"; };
+		F74C1A1D23D1525900D1CF15 /* NSObject+WGJSONValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WGJSONValue.m"; sourceTree = "<group>"; };
+		F74C1A1E23D1525900D1CF15 /* NSArray+WGJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WGJSONModel.h"; sourceTree = "<group>"; };
+		F74C1A1F23D1525900D1CF15 /* NSObject+WGJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WGJSONModel.h"; sourceTree = "<group>"; };
+		F74C1A2023D1525900D1CF15 /* NSObject+WGModelValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WGModelValue.m"; sourceTree = "<group>"; };
+		F74C1A2123D1525900D1CF15 /* NSObject+WGAutoModelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WGAutoModelHelper.m"; sourceTree = "<group>"; };
+		F74C1A2223D1525900D1CF15 /* NSArray+WGJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WGJSONModel.m"; sourceTree = "<group>"; };
+		F74C1A2323D1525900D1CF15 /* NSObject+WGJSONValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WGJSONValue.h"; sourceTree = "<group>"; };
+		F74C1A2423D1525900D1CF15 /* NSObject+WGJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WGJSONModel.m"; sourceTree = "<group>"; };
+		F74C1A2723D1525900D1CF15 /* UIColor+WGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WGColor.m"; sourceTree = "<group>"; };
+		F74C1A2823D1525900D1CF15 /* UIView+IBDESIGNABLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBDESIGNABLE.m"; sourceTree = "<group>"; };
+		F74C1A2923D1525900D1CF15 /* UIImageView+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A2A23D1525900D1CF15 /* UITextField+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A2B23D1525900D1CF15 /* UIControl+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A2C23D1525900D1CF15 /* UITextView+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A2D23D1525900D1CF15 /* UIAlertController+WGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+WGAdd.m"; sourceTree = "<group>"; };
+		F74C1A2E23D1525900D1CF15 /* UIGestureRecognizer+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A2F23D1525900D1CF15 /* UIImage+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A3023D1525900D1CF15 /* UILabel+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A3123D1525900D1CF15 /* UIDevice+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A3223D1525900D1CF15 /* UIViewController+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A3323D1525900D1CF15 /* UIButton+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A3423D1525900D1CF15 /* UIView+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A3523D1525900D1CF15 /* UITextField+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A3623D1525900D1CF15 /* UIImageView+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A3723D1525900D1CF15 /* UIView+IBDESIGNABLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBDESIGNABLE.h"; sourceTree = "<group>"; };
+		F74C1A3823D1525900D1CF15 /* UIColor+WGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WGColor.h"; sourceTree = "<group>"; };
+		F74C1A3923D1525900D1CF15 /* UIImage+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A3A23D1525900D1CF15 /* UIGestureRecognizer+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A3B23D1525900D1CF15 /* UIAlertController+WGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+WGAdd.h"; sourceTree = "<group>"; };
+		F74C1A3C23D1525900D1CF15 /* UITextView+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A3D23D1525900D1CF15 /* UIControl+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A3E23D1525900D1CF15 /* UIViewController+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A3F23D1525900D1CF15 /* UIDevice+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A4023D1525900D1CF15 /* UILabel+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A4123D1525900D1CF15 /* UIView+WGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WGCategory.m"; sourceTree = "<group>"; };
+		F74C1A4223D1525900D1CF15 /* UIButton+WGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WGCategory.h"; sourceTree = "<group>"; };
+		F74C1A4423D1525900D1CF15 /* WGActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGActionSheet.m; sourceTree = "<group>"; };
+		F74C1A4523D1525900D1CF15 /* WGCenterImageAndTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCenterImageAndTitleButton.m; sourceTree = "<group>"; };
+		F74C1A4623D1525900D1CF15 /* WGTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTextView.h; sourceTree = "<group>"; };
+		F74C1A4723D1525900D1CF15 /* WGAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGAlertView.m; sourceTree = "<group>"; };
+		F74C1A4823D1525900D1CF15 /* WGActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGActionSheet.h; sourceTree = "<group>"; };
+		F74C1A4923D1525900D1CF15 /* WGCenterImageAndTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCenterImageAndTitleButton.h; sourceTree = "<group>"; };
+		F74C1A4A23D1525900D1CF15 /* WGAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGAlertView.h; sourceTree = "<group>"; };
+		F74C1A4B23D1525900D1CF15 /* WGTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTextView.m; sourceTree = "<group>"; };
+		F74C1A4D23D1525900D1CF15 /* UITableViewCell+WGAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+WGAutoLayout.h"; sourceTree = "<group>"; };
+		F74C1A4E23D1525900D1CF15 /* UITableView+EdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EdgeInsets.m"; sourceTree = "<group>"; };
+		F74C1A4F23D1525900D1CF15 /* NSArray+NSIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSIndexPath.m"; sourceTree = "<group>"; };
+		F74C1A5023D1525900D1CF15 /* WGTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTableController.m; sourceTree = "<group>"; };
+		F74C1A5123D1525900D1CF15 /* UITableView+WGAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WGAutoLayout.h"; sourceTree = "<group>"; };
+		F74C1A5223D1525900D1CF15 /* UITableView+EdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EdgeInsets.h"; sourceTree = "<group>"; };
+		F74C1A5323D1525900D1CF15 /* UITableViewCell+WGAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WGAutoLayout.m"; sourceTree = "<group>"; };
+		F74C1A5423D1525900D1CF15 /* WGTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTableController.h; sourceTree = "<group>"; };
+		F74C1A5523D1525900D1CF15 /* NSArray+NSIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSIndexPath.h"; sourceTree = "<group>"; };
+		F74C1A5623D1525900D1CF15 /* UITableView+WGAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WGAutoLayout.m"; sourceTree = "<group>"; };
+		F74C1A5823D1525900D1CF15 /* WGPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGPopoverView.m; sourceTree = "<group>"; };
+		F74C1A5923D1525900D1CF15 /* WGGetGestureSecrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGGetGestureSecrets.h; sourceTree = "<group>"; };
+		F74C1A5A23D1525900D1CF15 /* WGLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLabel.h; sourceTree = "<group>"; };
+		F74C1A5B23D1525900D1CF15 /* WGCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCoreTextView.h; sourceTree = "<group>"; };
+		F74C1A5C23D1525900D1CF15 /* WGControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGControl.m; sourceTree = "<group>"; };
+		F74C1A5D23D1525900D1CF15 /* WGTextInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTextInputAccessoryView.m; sourceTree = "<group>"; };
+		F74C1A5E23D1525900D1CF15 /* WGCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCheckBox.m; sourceTree = "<group>"; };
+		F74C1A5F23D1525900D1CF15 /* WGGetGestureSecrets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGGetGestureSecrets.m; sourceTree = "<group>"; };
+		F74C1A6023D1525900D1CF15 /* WGPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPopoverView.h; sourceTree = "<group>"; };
+		F74C1A6123D1525900D1CF15 /* WGLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLabel.m; sourceTree = "<group>"; };
+		F74C1A6223D1525900D1CF15 /* WGCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCoreTextView.m; sourceTree = "<group>"; };
+		F74C1A6323D1525900D1CF15 /* WGTextInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTextInputAccessoryView.h; sourceTree = "<group>"; };
+		F74C1A6423D1525900D1CF15 /* WGControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGControl.h; sourceTree = "<group>"; };
+		F74C1A6523D1525900D1CF15 /* WGCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCheckBox.h; sourceTree = "<group>"; };
+		F74C1A6623D1525900D1CF15 /* WGDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGDefines.h; sourceTree = "<group>"; };
+		F74C1A6723D1525900D1CF15 /* WGConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGConstant.h; sourceTree = "<group>"; };
+		F74C1AC023D1525D00D1CF15 /* WGKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = WGKit.podspec; path = ../../WGKit.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F74C19F423D1522400D1CF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F74C19ED23D1522400D1CF15 = {
+			isa = PBXGroup;
+			children = (
+				F74C1AC023D1525D00D1CF15 /* WGKit.podspec */,
+				F74C19F923D1522400D1CF15 /* WGKit */,
+				F74C19F823D1522400D1CF15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F74C19F823D1522400D1CF15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74C19F723D1522400D1CF15 /* WGKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F74C19F923D1522400D1CF15 /* WGKit */ = {
+			isa = PBXGroup;
+			children = (
+				F74C19FA23D1522400D1CF15 /* WGKit.h */,
+				F74C1A0823D1525900D1CF15 /* WGKit */,
+				F74C19FB23D1522400D1CF15 /* Info.plist */,
+			);
+			path = WGKit;
+			sourceTree = "<group>";
+		};
+		F74C1A0823D1525900D1CF15 /* WGKit */ = {
+			isa = PBXGroup;
+			children = (
+				F74C1A0923D1525900D1CF15 /* Core */,
+				F74C1A1A23D1525900D1CF15 /* WGJSONModel */,
+				F74C1A2523D1525900D1CF15 /* UIKit */,
+				F74C1A5723D1525900D1CF15 /* Other */,
+				F74C1A6623D1525900D1CF15 /* WGDefines.h */,
+				F74C1A6723D1525900D1CF15 /* WGConstant.h */,
+			);
+			name = WGKit;
+			path = ../../../WGKit;
+			sourceTree = "<group>";
+		};
+		F74C1A0923D1525900D1CF15 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F74C1A0A23D1525900D1CF15 /* NSObject+WGObject.h */,
+				F74C1A0B23D1525900D1CF15 /* NSString+WGString.h */,
+				F74C1A0C23D1525900D1CF15 /* WGLog.h */,
+				F74C1A0D23D1525900D1CF15 /* NSDictionary+Map.h */,
+				F74C1A0E23D1525900D1CF15 /* NSObject+WGBlock.h */,
+				F74C1A0F23D1525900D1CF15 /* NSArray+Map.m */,
+				F74C1A1023D1525900D1CF15 /* NSDate+WGCategory.h */,
+				F74C1A1123D1525900D1CF15 /* NSTimer+WGTimer.m */,
+				F74C1A1223D1525900D1CF15 /* NSString+WGString.m */,
+				F74C1A1323D1525900D1CF15 /* NSObject+WGObject.m */,
+				F74C1A1423D1525900D1CF15 /* NSObject+WGBlock.m */,
+				F74C1A1523D1525900D1CF15 /* NSDictionary+Map.m */,
+				F74C1A1623D1525900D1CF15 /* WGLog.m */,
+				F74C1A1723D1525900D1CF15 /* NSDate+WGCategory.m */,
+				F74C1A1823D1525900D1CF15 /* NSArray+Map.h */,
+				F74C1A1923D1525900D1CF15 /* NSTimer+WGTimer.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F74C1A1A23D1525900D1CF15 /* WGJSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				F74C1A1B23D1525900D1CF15 /* NSObject+WGAutoModelHelper.h */,
+				F74C1A1C23D1525900D1CF15 /* NSObject+WGModelValue.h */,
+				F74C1A1D23D1525900D1CF15 /* NSObject+WGJSONValue.m */,
+				F74C1A1E23D1525900D1CF15 /* NSArray+WGJSONModel.h */,
+				F74C1A1F23D1525900D1CF15 /* NSObject+WGJSONModel.h */,
+				F74C1A2023D1525900D1CF15 /* NSObject+WGModelValue.m */,
+				F74C1A2123D1525900D1CF15 /* NSObject+WGAutoModelHelper.m */,
+				F74C1A2223D1525900D1CF15 /* NSArray+WGJSONModel.m */,
+				F74C1A2323D1525900D1CF15 /* NSObject+WGJSONValue.h */,
+				F74C1A2423D1525900D1CF15 /* NSObject+WGJSONModel.m */,
+			);
+			path = WGJSONModel;
+			sourceTree = "<group>";
+		};
+		F74C1A2523D1525900D1CF15 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F74C1A2623D1525900D1CF15 /* Category */,
+				F74C1A4323D1525900D1CF15 /* View */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		F74C1A2623D1525900D1CF15 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F74C1A2723D1525900D1CF15 /* UIColor+WGColor.m */,
+				F74C1A2823D1525900D1CF15 /* UIView+IBDESIGNABLE.m */,
+				F74C1A2923D1525900D1CF15 /* UIImageView+WGCategory.m */,
+				F74C1A2A23D1525900D1CF15 /* UITextField+WGCategory.m */,
+				F74C1A2B23D1525900D1CF15 /* UIControl+WGCategory.h */,
+				F74C1A2C23D1525900D1CF15 /* UITextView+WGCategory.m */,
+				F74C1A2D23D1525900D1CF15 /* UIAlertController+WGAdd.m */,
+				F74C1A2E23D1525900D1CF15 /* UIGestureRecognizer+WGCategory.m */,
+				F74C1A2F23D1525900D1CF15 /* UIImage+WGCategory.m */,
+				F74C1A3023D1525900D1CF15 /* UILabel+WGCategory.h */,
+				F74C1A3123D1525900D1CF15 /* UIDevice+WGCategory.h */,
+				F74C1A3223D1525900D1CF15 /* UIViewController+WGCategory.m */,
+				F74C1A3323D1525900D1CF15 /* UIButton+WGCategory.m */,
+				F74C1A3423D1525900D1CF15 /* UIView+WGCategory.h */,
+				F74C1A3523D1525900D1CF15 /* UITextField+WGCategory.h */,
+				F74C1A3623D1525900D1CF15 /* UIImageView+WGCategory.h */,
+				F74C1A3723D1525900D1CF15 /* UIView+IBDESIGNABLE.h */,
+				F74C1A3823D1525900D1CF15 /* UIColor+WGColor.h */,
+				F74C1A3923D1525900D1CF15 /* UIImage+WGCategory.h */,
+				F74C1A3A23D1525900D1CF15 /* UIGestureRecognizer+WGCategory.h */,
+				F74C1A3B23D1525900D1CF15 /* UIAlertController+WGAdd.h */,
+				F74C1A3C23D1525900D1CF15 /* UITextView+WGCategory.h */,
+				F74C1A3D23D1525900D1CF15 /* UIControl+WGCategory.m */,
+				F74C1A3E23D1525900D1CF15 /* UIViewController+WGCategory.h */,
+				F74C1A3F23D1525900D1CF15 /* UIDevice+WGCategory.m */,
+				F74C1A4023D1525900D1CF15 /* UILabel+WGCategory.m */,
+				F74C1A4123D1525900D1CF15 /* UIView+WGCategory.m */,
+				F74C1A4223D1525900D1CF15 /* UIButton+WGCategory.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F74C1A4323D1525900D1CF15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F74C1A4423D1525900D1CF15 /* WGActionSheet.m */,
+				F74C1A4523D1525900D1CF15 /* WGCenterImageAndTitleButton.m */,
+				F74C1A4623D1525900D1CF15 /* WGTextView.h */,
+				F74C1A4723D1525900D1CF15 /* WGAlertView.m */,
+				F74C1A4823D1525900D1CF15 /* WGActionSheet.h */,
+				F74C1A4923D1525900D1CF15 /* WGCenterImageAndTitleButton.h */,
+				F74C1A4A23D1525900D1CF15 /* WGAlertView.h */,
+				F74C1A4B23D1525900D1CF15 /* WGTextView.m */,
+				F74C1A4C23D1525900D1CF15 /* WGTableController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F74C1A4C23D1525900D1CF15 /* WGTableController */ = {
+			isa = PBXGroup;
+			children = (
+				F74C1A4D23D1525900D1CF15 /* UITableViewCell+WGAutoLayout.h */,
+				F74C1A4E23D1525900D1CF15 /* UITableView+EdgeInsets.m */,
+				F74C1A4F23D1525900D1CF15 /* NSArray+NSIndexPath.m */,
+				F74C1A5023D1525900D1CF15 /* WGTableController.m */,
+				F74C1A5123D1525900D1CF15 /* UITableView+WGAutoLayout.h */,
+				F74C1A5223D1525900D1CF15 /* UITableView+EdgeInsets.h */,
+				F74C1A5323D1525900D1CF15 /* UITableViewCell+WGAutoLayout.m */,
+				F74C1A5423D1525900D1CF15 /* WGTableController.h */,
+				F74C1A5523D1525900D1CF15 /* NSArray+NSIndexPath.h */,
+				F74C1A5623D1525900D1CF15 /* UITableView+WGAutoLayout.m */,
+			);
+			path = WGTableController;
+			sourceTree = "<group>";
+		};
+		F74C1A5723D1525900D1CF15 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F74C1A5823D1525900D1CF15 /* WGPopoverView.m */,
+				F74C1A5923D1525900D1CF15 /* WGGetGestureSecrets.h */,
+				F74C1A5A23D1525900D1CF15 /* WGLabel.h */,
+				F74C1A5B23D1525900D1CF15 /* WGCoreTextView.h */,
+				F74C1A5C23D1525900D1CF15 /* WGControl.m */,
+				F74C1A5D23D1525900D1CF15 /* WGTextInputAccessoryView.m */,
+				F74C1A5E23D1525900D1CF15 /* WGCheckBox.m */,
+				F74C1A5F23D1525900D1CF15 /* WGGetGestureSecrets.m */,
+				F74C1A6023D1525900D1CF15 /* WGPopoverView.h */,
+				F74C1A6123D1525900D1CF15 /* WGLabel.m */,
+				F74C1A6223D1525900D1CF15 /* WGCoreTextView.m */,
+				F74C1A6323D1525900D1CF15 /* WGTextInputAccessoryView.h */,
+				F74C1A6423D1525900D1CF15 /* WGControl.h */,
+				F74C1A6523D1525900D1CF15 /* WGCheckBox.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F74C19F223D1522400D1CF15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74C1ABC23D1525900D1CF15 /* WGControl.h in Headers */,
+				F74C1ABB23D1525900D1CF15 /* WGTextInputAccessoryView.h in Headers */,
+				F74C1A9223D1525900D1CF15 /* UIView+IBDESIGNABLE.h in Headers */,
+				F74C1A6923D1525900D1CF15 /* NSString+WGString.h in Headers */,
+				F74C1A9123D1525900D1CF15 /* UIImageView+WGCategory.h in Headers */,
+				F74C1A7823D1525900D1CF15 /* NSObject+WGAutoModelHelper.h in Headers */,
+				F74C1ABF23D1525900D1CF15 /* WGConstant.h in Headers */,
+				F74C1A9523D1525900D1CF15 /* UIGestureRecognizer+WGCategory.h in Headers */,
+				F74C1AB323D1525900D1CF15 /* WGCoreTextView.h in Headers */,
+				F74C1A6A23D1525900D1CF15 /* WGLog.h in Headers */,
+				F74C1A8C23D1525900D1CF15 /* UIDevice+WGCategory.h in Headers */,
+				F74C1AB223D1525900D1CF15 /* WGLabel.h in Headers */,
+				F74C1ABD23D1525900D1CF15 /* WGCheckBox.h in Headers */,
+				F74C1A9023D1525900D1CF15 /* UITextField+WGCategory.h in Headers */,
+				F74C1ABE23D1525900D1CF15 /* WGDefines.h in Headers */,
+				F74C1AA023D1525900D1CF15 /* WGTextView.h in Headers */,
+				F74C1A7B23D1525900D1CF15 /* NSArray+WGJSONModel.h in Headers */,
+				F74C1A9423D1525900D1CF15 /* UIImage+WGCategory.h in Headers */,
+				F74C1A8623D1525900D1CF15 /* UIControl+WGCategory.h in Headers */,
+				F74C1AA323D1525900D1CF15 /* WGCenterImageAndTitleButton.h in Headers */,
+				F74C1A8023D1525900D1CF15 /* NSObject+WGJSONValue.h in Headers */,
+				F74C1A9723D1525900D1CF15 /* UITextView+WGCategory.h in Headers */,
+				F74C19FC23D1522400D1CF15 /* WGKit.h in Headers */,
+				F74C1AA623D1525900D1CF15 /* UITableViewCell+WGAutoLayout.h in Headers */,
+				F74C1A6B23D1525900D1CF15 /* NSDictionary+Map.h in Headers */,
+				F74C1A8F23D1525900D1CF15 /* UIView+WGCategory.h in Headers */,
+				F74C1A7623D1525900D1CF15 /* NSArray+Map.h in Headers */,
+				F74C1A6E23D1525900D1CF15 /* NSDate+WGCategory.h in Headers */,
+				F74C1AA423D1525900D1CF15 /* WGAlertView.h in Headers */,
+				F74C1A7723D1525900D1CF15 /* NSTimer+WGTimer.h in Headers */,
+				F74C1AAD23D1525900D1CF15 /* WGTableController.h in Headers */,
+				F74C1A6C23D1525900D1CF15 /* NSObject+WGBlock.h in Headers */,
+				F74C1A9D23D1525900D1CF15 /* UIButton+WGCategory.h in Headers */,
+				F74C1A6823D1525900D1CF15 /* NSObject+WGObject.h in Headers */,
+				F74C1AAB23D1525900D1CF15 /* UITableView+EdgeInsets.h in Headers */,
+				F74C1A9923D1525900D1CF15 /* UIViewController+WGCategory.h in Headers */,
+				F74C1AB823D1525900D1CF15 /* WGPopoverView.h in Headers */,
+				F74C1A9323D1525900D1CF15 /* UIColor+WGColor.h in Headers */,
+				F74C1A7C23D1525900D1CF15 /* NSObject+WGJSONModel.h in Headers */,
+				F74C1AB123D1525900D1CF15 /* WGGetGestureSecrets.h in Headers */,
+				F74C1AA223D1525900D1CF15 /* WGActionSheet.h in Headers */,
+				F74C1A7923D1525900D1CF15 /* NSObject+WGModelValue.h in Headers */,
+				F74C1A9623D1525900D1CF15 /* UIAlertController+WGAdd.h in Headers */,
+				F74C1A8B23D1525900D1CF15 /* UILabel+WGCategory.h in Headers */,
+				F74C1AAA23D1525900D1CF15 /* UITableView+WGAutoLayout.h in Headers */,
+				F74C1AAE23D1525900D1CF15 /* NSArray+NSIndexPath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F74C19F623D1522400D1CF15 /* WGKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74C19FF23D1522400D1CF15 /* Build configuration list for PBXNativeTarget "WGKit" */;
+			buildPhases = (
+				F74C19F223D1522400D1CF15 /* Headers */,
+				F74C19F323D1522400D1CF15 /* Sources */,
+				F74C19F423D1522400D1CF15 /* Frameworks */,
+				F74C19F523D1522400D1CF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGKit;
+			productName = WGKit;
+			productReference = F74C19F723D1522400D1CF15 /* WGKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F74C19EE23D1522400D1CF15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Latest;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = xxx;
+				TargetAttributes = {
+					F74C19F623D1522400D1CF15 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F74C19F123D1522400D1CF15 /* Build configuration list for PBXProject "WGKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F74C19ED23D1522400D1CF15;
+			productRefGroup = F74C19F823D1522400D1CF15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F74C19F623D1522400D1CF15 /* WGKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F74C19F523D1522400D1CF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74C19F323D1522400D1CF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74C1A8523D1525900D1CF15 /* UITextField+WGCategory.m in Sources */,
+				F74C1A7F23D1525900D1CF15 /* NSArray+WGJSONModel.m in Sources */,
+				F74C1A8223D1525900D1CF15 /* UIColor+WGColor.m in Sources */,
+				F74C1A8723D1525900D1CF15 /* UITextView+WGCategory.m in Sources */,
+				F74C1A8123D1525900D1CF15 /* NSObject+WGJSONModel.m in Sources */,
+				F74C1A8823D1525900D1CF15 /* UIAlertController+WGAdd.m in Sources */,
+				F74C1AAF23D1525900D1CF15 /* UITableView+WGAutoLayout.m in Sources */,
+				F74C1A9C23D1525900D1CF15 /* UIView+WGCategory.m in Sources */,
+				F74C1A7423D1525900D1CF15 /* WGLog.m in Sources */,
+				F74C1AA923D1525900D1CF15 /* WGTableController.m in Sources */,
+				F74C1AB923D1525900D1CF15 /* WGLabel.m in Sources */,
+				F74C1A7023D1525900D1CF15 /* NSString+WGString.m in Sources */,
+				F74C1A7A23D1525900D1CF15 /* NSObject+WGJSONValue.m in Sources */,
+				F74C1AA723D1525900D1CF15 /* UITableView+EdgeInsets.m in Sources */,
+				F74C1A8423D1525900D1CF15 /* UIImageView+WGCategory.m in Sources */,
+				F74C1ABA23D1525900D1CF15 /* WGCoreTextView.m in Sources */,
+				F74C1A8D23D1525900D1CF15 /* UIViewController+WGCategory.m in Sources */,
+				F74C1A8323D1525900D1CF15 /* UIView+IBDESIGNABLE.m in Sources */,
+				F74C1A9F23D1525900D1CF15 /* WGCenterImageAndTitleButton.m in Sources */,
+				F74C1A7D23D1525900D1CF15 /* NSObject+WGModelValue.m in Sources */,
+				F74C1A7323D1525900D1CF15 /* NSDictionary+Map.m in Sources */,
+				F74C1AB723D1525900D1CF15 /* WGGetGestureSecrets.m in Sources */,
+				F74C1AA523D1525900D1CF15 /* WGTextView.m in Sources */,
+				F74C1A8A23D1525900D1CF15 /* UIImage+WGCategory.m in Sources */,
+				F74C1AA123D1525900D1CF15 /* WGAlertView.m in Sources */,
+				F74C1A6F23D1525900D1CF15 /* NSTimer+WGTimer.m in Sources */,
+				F74C1A8E23D1525900D1CF15 /* UIButton+WGCategory.m in Sources */,
+				F74C1AB023D1525900D1CF15 /* WGPopoverView.m in Sources */,
+				F74C1A9A23D1525900D1CF15 /* UIDevice+WGCategory.m in Sources */,
+				F74C1A9E23D1525900D1CF15 /* WGActionSheet.m in Sources */,
+				F74C1A9B23D1525900D1CF15 /* UILabel+WGCategory.m in Sources */,
+				F74C1A8923D1525900D1CF15 /* UIGestureRecognizer+WGCategory.m in Sources */,
+				F74C1A7523D1525900D1CF15 /* NSDate+WGCategory.m in Sources */,
+				F74C1A7123D1525900D1CF15 /* NSObject+WGObject.m in Sources */,
+				F74C1A6D23D1525900D1CF15 /* NSArray+Map.m in Sources */,
+				F74C1A7223D1525900D1CF15 /* NSObject+WGBlock.m in Sources */,
+				F74C1AAC23D1525900D1CF15 /* UITableViewCell+WGAutoLayout.m in Sources */,
+				F74C1AA823D1525900D1CF15 /* NSArray+NSIndexPath.m in Sources */,
+				F74C1A7E23D1525900D1CF15 /* NSObject+WGAutoModelHelper.m in Sources */,
+				F74C1AB623D1525900D1CF15 /* WGCheckBox.m in Sources */,
+				F74C1A9823D1525900D1CF15 /* UIControl+WGCategory.m in Sources */,
+				F74C1AB523D1525900D1CF15 /* WGTextInputAccessoryView.m in Sources */,
+				F74C1AB423D1525900D1CF15 /* WGControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F74C19FD23D1522400D1CF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F74C19FE23D1522400D1CF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F74C1A0023D1522400D1CF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WGKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx.WGKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F74C1A0123D1522400D1CF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WGKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx.WGKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F74C19F123D1522400D1CF15 /* Build configuration list for PBXProject "WGKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74C19FD23D1522400D1CF15 /* Debug */,
+				F74C19FE23D1522400D1CF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74C19FF23D1522400D1CF15 /* Build configuration list for PBXNativeTarget "WGKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74C1A0023D1522400D1CF15 /* Debug */,
+				F74C1A0123D1522400D1CF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F74C19EE23D1522400D1CF15 /* Project object */;
+}

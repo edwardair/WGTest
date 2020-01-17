@@ -7,6 +7,7 @@
 //
 
 #import "WGActionSheet.h"
+#import "WGLog.h"
 
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < 80300
 

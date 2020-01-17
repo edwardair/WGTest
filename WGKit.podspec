@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WGKit"
-  s.version      = "0.5.2"
+  s.version      = "0.5.3"
   s.summary      = "WGKit"
   s.description  = <<-DESC
                    常用组件封装
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files  = 'WGKit/WGDefines.h'
-  s.public_header_files = 'WGKit/WGDefines.h'
+  s.public_header_files = 'WGKit/WGDefines.h' 'WGKit/WGConstant.h'
   
   s.subspec 'Core' do |ss|
     ss.source_files  = 'WGKit/Core/*.{h,m}'
