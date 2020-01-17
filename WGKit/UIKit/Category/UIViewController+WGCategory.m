@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIDevice+WGCategory.h"
+#import <UIDevice+WGCategory.h>
 
 #pragma mark - UIViewController
 @interface UIViewController()

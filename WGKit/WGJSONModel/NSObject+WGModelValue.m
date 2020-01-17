@@ -7,10 +7,10 @@
 //
 
 #import "NSObject+WGModelValue.h"
-#import "NSObject+WGJSONModel.h"
-#import "NSObject+WGAutoModelHelper.h"
-#import "WGLog.h"
-#import "NSArray+Map.h"
+#import <NSObject+WGJSONModel.h>
+#import <NSObject+WGAutoModelHelper.h>
+#import <WGLog.h>
+#import <NSArray+Map.h>
 #import <objc/runtime.h>
 #pragma mark -
 

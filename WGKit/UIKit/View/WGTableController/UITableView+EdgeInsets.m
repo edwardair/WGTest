@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "UITableView+EdgeInsets.h"
+#import <UITableView+EdgeInsets.h>
 #import <objc/runtime.h>
-#import "NSObject+WGObject.h"
+#import <NSObject+WGObject.h>
 
 
 #pragma mark - MODEL

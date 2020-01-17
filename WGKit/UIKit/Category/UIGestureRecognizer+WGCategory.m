@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
-#import "UIGestureRecognizer+WGCategory.h"
+#import <UIGestureRecognizer+WGCategory.h>
 @implementation UIGestureRecognizer(WGCategory)
 #ifdef InFrameTestMode
 #pragma clang diagnostic push

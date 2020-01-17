@@ -7,7 +7,7 @@
 //
 
 #import "UIButton+WGCategory.h"
-#import "UIView+WGCategory.h"
+#import <UIView+WGCategory.h>
 
 @implementation UIButton (WGCategory)
 @end

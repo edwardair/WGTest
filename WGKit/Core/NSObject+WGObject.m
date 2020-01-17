@@ -6,9 +6,9 @@
 //
 
 #import "NSObject+WGObject.h"
-#import "WGConstant.h"
-#import "NSString+WGString.h"
-#import "WGLog.h"
+#import <WGConstant.h>
+#import <NSString+WGString.h>
+#import <WGLog.h>
 
 @implementation NSObject(WGObject)
 #pragma mark - 纯提示性UIAlertView显示
