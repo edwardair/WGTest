@@ -7,7 +7,7 @@
 //
 
 #import "WGLog.h"
-#import "NSString+WGString.h"
+#import <NSString+WGString.h>
 
 @implementation WGLog
 #pragma mark - 打印处理
