@@ -8,16 +8,16 @@
 
 #import "WGTableController.h"
 
-#import "NSArray+NSIndexPath.h"
-#import "UITableView+WGAutoLayout.h"
-#import "UITableViewCell+WGAutoLayout.h"
-#import "NSArray+NSIndexPath.h"
+#import <NSArray+NSIndexPath.h>
+#import <UITableView+WGAutoLayout.h>
+#import <UITableViewCell+WGAutoLayout.h>
+#import <NSArray+NSIndexPath.h>
 #import <objc/runtime.h>
 #import <objc/message.h>
-#import "NSArray+Map.h"
-#import "NSObject+WGObject.h"
-#import "UIView+WGCategory.h"
-#import "WGConstant.h"
+#import <NSArray+Map.h>
+#import <NSObject+WGObject.h>
+#import <UIView+WGCategory.h>
+#import <WGConstant.h>
 
 #pragma mark - Subject
 @interface WGTableSubject:NSObject<UITableViewDelegate,UITableViewDataSource>
