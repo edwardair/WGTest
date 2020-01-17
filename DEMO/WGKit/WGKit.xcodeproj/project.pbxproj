@@ -190,7 +190,7 @@
 		F74C1A6523D1525900D1CF15 /* WGCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCheckBox.h; sourceTree = "<group>"; };
 		F74C1A6623D1525900D1CF15 /* WGDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGDefines.h; sourceTree = "<group>"; };
 		F74C1A6723D1525900D1CF15 /* WGConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGConstant.h; sourceTree = "<group>"; };
-		F74C1AC023D1525D00D1CF15 /* WGKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = WGKit.podspec; path = ../../WGKit.podspec; sourceTree = "<group>"; };
+		F74C1AC023D1525D00D1CF15 /* WGKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = WGKit.podspec; path = ../../WGKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

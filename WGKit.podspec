@@ -1,19 +1,19 @@
 Pod::Spec.new do |s|
   s.name         = "WGKit"
-  s.version      = "0.5.3"
+  s.version      = "0.5.4"
   s.summary      = "WGKit"
   s.description  = <<-DESC
                    常用组件封装
                    DESC
-  s.homepage     = "https://github.com/edwardair/WGCategory.git"
+  s.homepage     = "https://github.com/edwardair/WGTest.git"
   s.license      = "LICENSE"
   s.author       = { "Eduoduo" => "550621009@qq.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/edwardair/WGCategory.git", :tag => s.version}
+  s.source       = { :git => "/Users/raymi/Documents/WGTest/.git"}
   s.requires_arc = true
 
-  s.source_files  = 'WGKit/WGDefines.h'
-  s.public_header_files = 'WGKit/WGDefines.h' 'WGKit/WGConstant.h'
+  s.source_files  = 'WGKit/WGDefines.h', 'WGKit/WGConstant.h'
+  s.public_header_files = 'WGKit/WGDefines.h'
   
   s.subspec 'Core' do |ss|
     ss.source_files  = 'WGKit/Core/*.{h,m}'
